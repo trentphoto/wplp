@@ -1,0 +1,18 @@
+.section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  &_testimonial {
+    background-image: url('https://source.unsplash.com/UdgFu5RSB_4/1000x1000');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &_apply {
+    background-image: url('https://source.unsplash.com/FW0WgMjWphI/1000x1000')
+  }
+}
